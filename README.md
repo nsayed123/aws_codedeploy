@@ -1,4 +1,4 @@
-# aws_codePipeline
+# Setup CICD pipeline using code pipeline, code commit and code deploy. Deploy any docker image.
 
 ## Steps:
 1. You’ve created an AWS Identity and Access Management (IAM) user account with administrative policy permissions, and generated an access key ID and secret key.
