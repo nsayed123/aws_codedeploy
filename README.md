@@ -6,7 +6,7 @@
 3. Create the ECR repo.
 4. Set the below environment variale.
 
-    - ```AWS_DEFAULT_REGION
+    ```AWS_DEFAULT_REGION
     AWS_CLUSTER_NAME
     AWS_ACCOUNT_ID
     IMAGE_REPO_NAME
