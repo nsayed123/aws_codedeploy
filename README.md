@@ -13,7 +13,8 @@
     IMAGE_REPO_NAME
     IMAGE_TAG
 ```
-5. NOTE: Also add, ecr, eks, s3 access to the build service role.
+`NOTE: Code deploy doesn't support deployment fro K8s`
+5. Also add, ecr, eks, s3 access to the build service role.
 6. Create an IAM role with some name like CodeBuildKubectlRole. Use the script `create_iam_role.sh`
 7. Attach the  cluster with CodeBuildKubectlRole role.
 8. Provide the codepipeline service role with ECR access.
