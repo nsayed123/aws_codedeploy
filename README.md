@@ -4,7 +4,8 @@
 1. You’ve created an AWS Identity and Access Management (IAM) user account with administrative policy permissions, and generated an access key ID and secret key.
 2. As part of this setup, we need to install K8s aka EKS, AWS CLI, Kubectl, aws-iam-authenticator, EKSCTL otherwise the setup will not work as expected.
 3. Create the ECR repo.
-4. Set the below environment variale during pipeline setup
+4. Create a code commit repository.
+5. Set the below environment variale during pipeline setup
 
     AWS_DEFAULT_REGION
     AWS_CLUSTER_NAME
